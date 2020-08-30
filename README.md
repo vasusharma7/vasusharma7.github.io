@@ -4,3 +4,5 @@
 - 💬 Ask me about Web Development (MERN/LAMP), python progamming,machine learing, web scrapping.
 - 📫 Reach me at vasusharma2017@outlook.com.
 - ⚡ Fun fact: I don't like `Shrikhand` in my meals :p.
+
+[![Vasu's github stats](https://github-readme-stats.vercel.app/api?username=vasusharma7)](https://github.com/anuraghazra/github-readme-stats)
