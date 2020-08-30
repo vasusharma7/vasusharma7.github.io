@@ -5,4 +5,4 @@
 - 📫 Reach me at vasusharma2017@outlook.com.
 - ⚡ Fun fact: I don't like `Shrikhand` in my meals :p.
 
-![Vasu's github stats](https://github-readme-stats.vercel.app/api?username=vasusharma7&theme=dark&count_private=true&include_all_commits=true&hide=stars)
+![Vasu's github stats](https://github-readme-stats.vercel.app/api?username=vasusharma7&theme=dark&count_private=true&include_all_commits=true&hide=issues)
