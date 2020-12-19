@@ -1,0 +1,124 @@
+{
+  "main": {
+    "name": "Vasu Sharma",
+    "occupation": "(Your Occupation Here)",
+    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image": "profilepic.jpg",
+    "bio": "Hi, I am Vasu Sharma. I am pursuing B.Tech in Computer Science from College Of Engineering, Pune. I am interested in end to end software development and like to develop consumer applications.I can adapt to changing tech-stacks or new technology in general very quickly.Computer networks really fascinate me.I have worked on some cool freelancing projects and am always looking for project ideas involving new challenges.I am a travel-geek and I only have coffee on days ending with 'y' :p",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "mailsforvasu@gmail.com",
+    "phone": "",
+    "address": {
+      "street": "",
+      "city": "Jammu",
+      "state": "Jammu & Kashmir",
+      "zip": "India"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "medium",
+        "url": "http://vasusharma7.medium.com",
+        "className": "fa fa-medium"
+      },
+      {
+        "name": "mail",
+        "url": "mailto:mailsforvasu@gmail.com",
+        "className": "fa fa-envelope"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/vasu_sharma_7",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/vasusharma7/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/vasusharma7",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I have worked on numerous projects and am well-versed with web development, native mobile and desktop development.",
+    "education": [
+      {
+        "school": "College Of Engineering, Pune",
+        "degree": "B.Tech. in Computer Science",
+        "graduated": "2018-2022",
+        "description": "Studying Data Structures, Computer Networks, Database Management Systems.."
+      },
+      {
+        "school": "Govt. SRML Higher Secondary School,Jammu",
+        "degree": "Intermediate/+2",
+        "graduated": "April 2018",
+        "description": "Studied Physics, Chemistry, Mathematics and Computer Science.I was headboy of the school."
+      }
+    ],
+    "work": [
+      {
+        "company": "Software Development Section,COEP",
+        "title": "Software Developer",
+        "years": "October 2019 - Present",
+        "description": "I have worked on many projects for college authorities, college fests and some external organisations, have take various sessions on AWS,web hosting etc."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Langauges",
+        "more": "Python, C, C++, Javascript"
+      },
+      {
+        "name": "Frameworks and Libraries",
+        "more": "Electron, React Native, Django, NodeJS, ReactJS, ReduxJS, Flask"
+      },
+      {
+        "name": "Web Development",
+        "more": "MEAN, LAMP Stack, HTML, CSS, PHP"
+      },
+      {
+        "name": "Tools and tech",
+        "more": "linux, git, selenium, AWS"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "IMA - Social Security Scheme",
+        "category": "Social Security Scheme for Indian Medical Association - LIC for Doctors. Built and end-to-end website, User's View and Admin's View for IMA to manage their SSS Scheme. Website Link - https://gitlab.com/sdscoep/ima_all",
+        "image": "ima.jpg",
+        "url": "https://www.imamssss.com"
+      },
+      {
+        "title": "Milaap",
+        "category": "Milaap a decentralised video/audio chat/conferencing application, which is designed to work on the edge, with very less interference of the server(i.e. peer to peer connection). There are many video calling applications around the globe, but they are mostly server based applications providing maximum load on the server, wherein the audio and video quality decreases with increase in the number of participants. Many don't even support end-to-end encryption. So we decided to develop a one-stop solution for not only addressing all these solution, but to give a seamless experience to the user. It is designed to work efficiently on all platform",
+        "image": "milaap.jpg",
+        "url": "https://milaap.video/"
+      },
+      {
+        "title": "VSTorrent - A Torrent Client",
+        "category": "A torrent client built in Node JS with a nice UI made with electron.js. It can download files,serve as seed server and show you some nice stats while downloading files. The best thing is that it also works across NAT layer.",
+        "image": "torrent.jpg",
+        "url": "https://github.com/vasusharma7/torrent"
+      },
+      {
+        "title": "Resume Maker",
+        "category": "An automated Resume Maker written in LAMP stack.The project was deployed live in Pune StartUp Fest 2020 on their Portal where more than 3000 people made resume with this application.",
+        "image": "resume.jpg",
+        "url": "https://github.com/vasusharma7"
+      },
+      {
+        "title": "Text Editor",
+        "category": "A text editor made in C with features like creating and editing files, undo/redo, goto line number,word suggestions as you type and you can open/edit large files without any lag",
+        "image": "editor.jpg",
+        "url": "https://github.com/vasusharma7/text-editor"
+      }
+    ]
+  }
+}
