@@ -15,9 +15,9 @@ class Portfolio extends Component {
               </div>
               <div className="nine columns main-col proj-content">
                 <a href={projects.url} title={projects.title}>
-                  <h2>{projects.title}</h2>
+                  <h2 className="proj-title">{projects.title}</h2>
                 </a>
-                <p>{projects.category}</p>
+                <p style={{ fontSize: "1.8rem" }}>{projects.category}</p>
               </div>
             </div>
             <br />

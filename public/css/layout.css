@@ -512,8 +512,13 @@ ul#nav li.current a {
     align-items: center;
     display: flex;
   }
+  .tagline {
+    font-size: 1.5em;
+  }
 }
-
+.proj-title:hover {
+  color: orangered;
+}
 /* overlay */
 .portfolio-item .item-wrap .overlay {
   position: absolute;
