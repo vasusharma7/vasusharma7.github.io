@@ -41,6 +41,11 @@
         "name": "github",
         "url": "http://github.com/vasusharma7",
         "className": "fa fa-github"
+      },
+      {
+        "name": "medium",
+        "url": "http://vasusharma7.medium.com",
+        "className": "fa fa-"
       }
     ]
   },
@@ -79,7 +84,7 @@
       },
       {
         "name": "Web Development",
-        "more": "MEAN, LAMP Stack, HTML, CSS, PHP"
+        "more": "MERN, LAMP Stack, HTML, CSS, PHP"
       },
       {
         "name": "Tools and tech",
