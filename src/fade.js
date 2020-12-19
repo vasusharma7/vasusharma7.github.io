@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./fade.css";
+
 
 export function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
