@@ -29,7 +29,7 @@
       },
       {
         "name": "twitter",
-        "url": "http://twitter.com/vasu_sharma_7",
+        "url": "http://twitter.com/sharma_vasu_7",
         "className": "fa fa-twitter"
       },
       {
@@ -90,6 +90,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Netcon",
+        "category": "Built Android and Desktop Applications to share files, voice call and text message users connected to the same WiFi network.The app is completely server-less and uses peer-to-peer connections for all its functions and works without Internet.Live on Google Play Store.",
+        "image": "netcon.png",
+        "url": "https://play.google.com/store/apps/details?id=com.vasusharma7.intralancom"
+      },
+      {
         "title": "IMA - Social Security Scheme",
         "category": "Social Security Scheme for Indian Medical Association - LIC for Doctors. Built and end-to-end website, User's View and Admin's View for IMA to manage their SSS Scheme. Website Link - https://gitlab.com/sdscoep/ima_all",
         "image": "ima.jpg",
@@ -108,17 +114,18 @@
         "url": "https://github.com/vasusharma7/torrent"
       },
       {
-        "title": "Resume Maker",
-        "category": "An automated Resume Maker written in LAMP stack.The project was deployed live in Pune StartUp Fest 2020 on their Portal where more than 3000 people made resume with this application.",
-        "image": "resume.jpg",
-        "url": "https://github.com/vasusharma7"
-      },
-      {
         "title": "Text Editor",
         "category": "A text editor made in C with features like creating and editing files, undo/redo, goto line number,word suggestions as you type and you can open/edit large files without any lag",
         "image": "editor.jpg",
         "url": "https://github.com/vasusharma7/text-editor"
+      },
+      {
+        "title": "Resume Maker",
+        "category": "An automated Resume Maker written in LAMP stack.The project was deployed live in Pune StartUp Fest 2020 on their Portal where more than 3000 people made resume with this application.",
+        "image": "resume.jpg",
+        "url": "https://github.com/vasusharma7"
       }
+      
     ]
   }
 }
