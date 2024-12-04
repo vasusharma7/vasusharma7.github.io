@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Vasu Sharma",
-    "occupation": "(Your Occupation Here)",
+    "occupation": "Software Engineer",
     "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image": "profilepic.jpg",
-    "bio": "Hi, I am Vasu Sharma. I am pursuing B.Tech in Computer Science from College Of Engineering, Pune. I am interested in end to end software development and like to develop consumer applications.I can adapt to changing tech-stacks or new technology in general very quickly.Computer networks really fascinate me.I have worked on some cool freelancing projects and am always looking for project ideas involving new challenges.I am a travel-geek and I only have coffee on days ending with 'y' :p",
+    "bio": "Hi, I am Vasu Sharma. I am a Software Engineer. I love Computer Science in general and specifically interested in Computer Networks, Operating Systems. I am interested in end to end software development and like to develop consumer applications.I can adapt to changing tech-stacks or new technology in general very quickly.Computer networks really fascinate me.I have worked on some cool freelancing projects and am always looking for project ideas involving new challenges.I am a travel-geek and I only have coffee on days ending with 'y' :p",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "mailsforvasu@gmail.com",
     "phone": "",
@@ -29,7 +29,7 @@
       },
       {
         "name": "twitter",
-        "url": "http://twitter.com/sharma_vasu_7",
+        "url": "http://twitter.com/vasusharma_7",
         "className": "fa fa-twitter"
       },
       {
@@ -51,7 +51,7 @@
         "school": "College Of Engineering, Pune",
         "degree": "B.Tech. in Computer Science",
         "graduated": "2018-2022",
-        "description": "Studying Data Structures, Computer Networks, Database Management Systems.."
+        "description": "Studied Data Structures, Algorithms, Computer Networks,Operating Systems, Databases.."
       },
       {
         "school": "Govt. SRML Higher Secondary School,Jammu",
@@ -62,16 +62,46 @@
     ],
     "work": [
       {
+        "company": "Google",
+        "title": "Software Engineer",
+        "years": "Sept 2023 - Present",
+        "description": "Working on AI Security Solutions targeting OWASP Top 10 risks for LLMs. Previously, worked in GCP's Secret Manager team to develop a new service for Google Cloud Platform (yet to be GA) [Go, Spanner, gRPC, Continuous Probes for E2E testing]"
+      },
+      {
+        "company": "Google",
+        "title": "Application Engineer",
+        "years": "July 2022 - Sept 2023",
+        "description": "Worked on standardizing the active device telemetry data collection from datacenter hardware (adopting redfish industry standard) for data-center data-security team. We handled billions of events daily from across the fleet. [C++, PubSub, RPCs, Spanner]. Also, designed and developed(founding team member) a centralized \"Policy Manager\" for creating and enforcing Cloud Capacity Policies with policy versioning, RBAC, runtime evaluation engine using Common Expression Language.. [Java, Angular, gRPC, Spanner]"
+      },
+      {
+        "company": "Axis Technical Group",
+        "title": "ML Research Intern",
+        "years": "Dec 2021 - June 2022",
+        "description": "Researched on novel techniques for optical character Recognition (OCR) for machine printed and handwritten text. Implemented CRAFT research paper, changed the model architecture and trained on relevant data to suit the requirements. Strengthened ML deployments of OCR jobs by shifting workloads from compute instances to containerized ML pipeline on Kubernetes (async) increasing load tolerance and availability and also saving costs.[Azure, Python, Redis, Kubernetes]. Built a full stack application for continuous human feedback of low confidence predictions and setup automated retraining pipeline for model based on evaluation.[Azure, Python, NodeJS, React]"
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "Summer Intern",
+        "years": "June 2021 - July 2021",
+        "description": "Added features to and re-designed the primitive UI for configuring workflows with React and TypeScript to make it consistent across the firm and reduced the user on-boarding time from 3 weeks to few days."
+      },
+      {
+        "company": "NanoStuffs",
+        "title": "Freelance Developer",
+        "years": "June 2021 - July 2021",
+        "description": "Built a real Email Classification engine for Hotstar (client of NanoStuffs), deployed the same AWS. [Python,Machine Learning,AWS]. Worked on web scraping projects, scraping data from Yelp and other online reviews websites into structured format. [Python, Selenium]. Worked on building Web UIs and REST APIs serving results from daily OCR scans of newspapers.[Python, Django, Javascript]"
+      },
+      {
         "company": "Software Development Section,COEP",
         "title": "Software Developer",
         "years": "October 2019 - Present",
-        "description": "I have worked on many projects for college authorities, college fests and some external organisations, have take various sessions on AWS,web hosting etc."
+        "description": " Built a website for Indian Medical Association - https://imamssss.com to manage their Social Security Scheme - developed UI and backend components from scratch including integration of payment gateway, admin dashboard for managing active members, advance and recurring payments from members and generating payment invoices in realtime etc. [NodeJS, React, MongoDB]. Built an online election portal for conducting elections for College Presidents during the times of covid. Wrote middle-wares for extensive validations, added OTP support, used MongoDB transactions for recoding votes atomically built user interfaces for managing all phases of elections from nominations to voting. Self hosted on college servers and did extensive load tests. [NginX, React, MongoDB, NodeJS ].  Developed a resume-builder web application in vanilla JS , PHP for creating user resumes by ingesting information from an interactive form. This was integrated with the web portal of Pune StartUp Fest where 3000+ candidates created their resumes directly sent to Start-Ups for applications."
       }
     ],
     "skills": [
       {
         "name": "Langauges",
-        "more": "Python, C, C++, Javascript"
+        "more": "Python, C, C++, Javascript, Go, Java"
       },
       {
         "name": "Frameworks and Libraries",
@@ -90,16 +120,34 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Chess Engine",
+        "category": "Developed a chess engine in GoLang using MiniMax Algorithm and alpha-beta pruning with a minimal UI.Try to beat it at: https://vasusharma7.github.io/Chess-MM/index.html",
+        "image": "raft.png",
+        "url": "https://github.com/vasusharma7/Chess-MM"
+      },
+      {
+        "title": "VSTorrent - A Torrent Client",
+        "category": "A torrent client built in Node JS with a nice UI made with electron.js. It can download files,serve as seed server and show you some nice stats while downloading files. The best thing is that it also works across NAT layer.",
+        "image": "torrent.jpg",
+        "url": "https://github.com/vasusharma7/torrent"
+      },
+      {
+        "title": "RAFT",
+        "category": "Created a browser simulation for understanding RAFT -- a consensus algorithm for distributed systems.Live Demo: https://pranav2612000.github.io/raft/",
+        "image": "chess.png",
+        "url": "https://github.com/pranav2612000/raft/"
+      },
+      {
+        "title": "LSM Tree",
+        "category": "Implement Log Structured Merge Trees from Scratch to understand the internals.",
+        "image": "lsm.png",
+        "url": "https://github.com/vasusharma7/lsm"
+      },
+      {
         "title": "Netcon",
         "category": "Built Android and Desktop Applications to share files, voice call and text message users connected to the same WiFi network.The app is completely server-less and uses peer-to-peer connections for all its functions and works without Internet.Live on Google Play Store.",
         "image": "netcon.png",
-        "url": "https://play.google.com/store/apps/details?id=com.vasusharma7.intralancom"
-      },
-      {
-        "title": "IMA - Social Security Scheme",
-        "category": "Social Security Scheme for Indian Medical Association - LIC for Doctors. Built and end-to-end website, User's View and Admin's View for IMA to manage their SSS Scheme. Website Link - https://gitlab.com/sdscoep/ima_all",
-        "image": "ima.jpg",
-        "url": "https://www.imamssss.com"
+        "url": "https://github.com/vasusharma7/intralan-wireless-com"
       },
       {
         "title": "Milaap",
@@ -108,10 +156,16 @@
         "url": "https://milaap.video/"
       },
       {
-        "title": "VSTorrent - A Torrent Client",
-        "category": "A torrent client built in Node JS with a nice UI made with electron.js. It can download files,serve as seed server and show you some nice stats while downloading files. The best thing is that it also works across NAT layer.",
-        "image": "torrent.jpg",
-        "url": "https://github.com/vasusharma7/torrent"
+        "title": "Fashion Intelligence System",
+        "category": "Created a tech solution to extract and present winning designs of apparels and footwear in a consumable format to designers, so that the same can be incorporated in the upcoming design of fashion products.Trained various Deep Learning models for extracting useful products from pictures, predicting the trendiness of products etc. Developed some generalized scrapers for twitter and various fashion blog sites to gather data.",
+        "image": "fashion.png",
+        "url": "https://github.com/vasusharma7/flipkart-gridM"
+      },
+      {
+        "title": "IMA - Social Security Scheme",
+        "category": "Social Security Scheme for Indian Medical Association - LIC for Doctors. Built and end-to-end website, User's View and Admin's View for IMA to manage their SSS Scheme. Website Link - https://gitlab.com/sdscoep/ima_all",
+        "image": "ima.jpg",
+        "url": "https://www.imamssss.com"
       },
       {
         "title": "Text Editor",
@@ -125,7 +179,6 @@
         "image": "resume.jpg",
         "url": "https://github.com/vasusharma7"
       }
-      
     ]
   }
 }
