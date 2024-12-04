@@ -65,19 +65,19 @@
         "company": "Google",
         "title": "Software Engineer",
         "years": "Sept 2023 - Present",
-        "description": "Working on AI Security Solutions targeting OWASP Top 10 risks for LLMs. Previously, worked in GCP's Secret Manager team to develop a new service for Google Cloud Platform (yet to be GA) [Go, Spanner, gRPC, Continuous Probes for E2E testing]"
+        "description": "Working on AI Security Solutions targeting OWASP Top 10 risks for LLMs.<br/><br/>Previously, worked in GCP's Secret Manager team to develop a new service for Google Cloud Platform (yet to be GA) [Go, Spanner, gRPC, Continuous Probes for E2E testing]"
       },
       {
         "company": "Google",
         "title": "Application Engineer",
         "years": "July 2022 - Sept 2023",
-        "description": "Worked on standardizing the active device telemetry data collection from datacenter hardware (adopting redfish industry standard) for data-center data-security team. We handled billions of events daily from across the fleet. [C++, PubSub, RPCs, Spanner]. Also, designed and developed(founding team member) a centralized \"Policy Manager\" for creating and enforcing Cloud Capacity Policies with policy versioning, RBAC, runtime evaluation engine using Common Expression Language.. [Java, Angular, gRPC, Spanner]"
+        "description": "Worked on standardizing the active device telemetry data collection from datacenter hardware (adopting redfish industry standard) for data-center data-security team. We handled billions of events daily from across the fleet. [C++, PubSub, RPCs, Spanner]. <br/><br/>Also, designed and developed(founding team member) a centralized \"Policy Manager\" for creating and enforcing Cloud Capacity Policies with policy versioning, RBAC, runtime evaluation engine using Common Expression Language.. [Java, Angular, gRPC, Spanner]"
       },
       {
         "company": "Axis Technical Group",
         "title": "ML Research Intern",
         "years": "Dec 2021 - June 2022",
-        "description": "Researched on novel techniques for optical character Recognition (OCR) for machine printed and handwritten text. Implemented CRAFT research paper, changed the model architecture and trained on relevant data to suit the requirements. Strengthened ML deployments of OCR jobs by shifting workloads from compute instances to containerized ML pipeline on Kubernetes (async) increasing load tolerance and availability and also saving costs.[Azure, Python, Redis, Kubernetes]. Built a full stack application for continuous human feedback of low confidence predictions and setup automated retraining pipeline for model based on evaluation.[Azure, Python, NodeJS, React]"
+        "description": "Researched on novel techniques for optical character Recognition (OCR) for machine printed and handwritten text. Implemented CRAFT research paper, changed the model architecture and trained on relevant data to suit the requirements. <br/><br/>Strengthened ML deployments of OCR jobs by shifting workloads from compute instances to containerized ML pipeline on Kubernetes (async) increasing load tolerance and availability and also saving costs.[Azure, Python, Redis, Kubernetes]. Built a full stack application for continuous human feedback of low confidence predictions and setup automated retraining pipeline for model based on evaluation.[Azure, Python, NodeJS, React]"
       },
       {
         "company": "Goldman Sachs",
@@ -89,13 +89,13 @@
         "company": "NanoStuffs",
         "title": "Freelance Developer",
         "years": "June 2021 - July 2021",
-        "description": "Built a real Email Classification engine for Hotstar (client of NanoStuffs), deployed the same AWS. [Python,Machine Learning,AWS]. Worked on web scraping projects, scraping data from Yelp and other online reviews websites into structured format. [Python, Selenium]. Worked on building Web UIs and REST APIs serving results from daily OCR scans of newspapers.[Python, Django, Javascript]"
+        "description": "Built a real Email Classification engine for Hotstar (client of NanoStuffs), deployed the same AWS. [Python,Machine Learning,AWS].<br/><br/> Worked on web scraping projects, scraping data from Yelp and other online reviews websites into structured format. [Python, Selenium].<br/><br/> Worked on building Web UIs and REST APIs serving results from daily OCR scans of newspapers.[Python, Django, Javascript]"
       },
       {
         "company": "Software Development Section,COEP",
         "title": "Software Developer",
         "years": "October 2019 - Present",
-        "description": " Built a website for Indian Medical Association - https://imamssss.com to manage their Social Security Scheme - developed UI and backend components from scratch including integration of payment gateway, admin dashboard for managing active members, advance and recurring payments from members and generating payment invoices in realtime etc. [NodeJS, React, MongoDB]. Built an online election portal for conducting elections for College Presidents during the times of covid. Wrote middle-wares for extensive validations, added OTP support, used MongoDB transactions for recoding votes atomically built user interfaces for managing all phases of elections from nominations to voting. Self hosted on college servers and did extensive load tests. [NginX, React, MongoDB, NodeJS ].  Developed a resume-builder web application in vanilla JS , PHP for creating user resumes by ingesting information from an interactive form. This was integrated with the web portal of Pune StartUp Fest where 3000+ candidates created their resumes directly sent to Start-Ups for applications."
+        "description": " Built a website for Indian Medical Association - https://imamssss.com to manage their Social Security Scheme - developed UI and backend components from scratch including integration of payment gateway, admin dashboard for managing active members, advance and recurring payments from members and generating payment invoices in realtime etc. [NodeJS, React, MongoDB].<br/><br/> Built an online election portal for conducting elections for College Presidents during the times of covid. Wrote middle-wares for extensive validations, added OTP support, used MongoDB transactions for recoding votes atomically built user interfaces for managing all phases of elections from nominations to voting. Self hosted on college servers and did extensive load tests. [NginX, React, MongoDB, NodeJS ].<br/><br/>  Developed a resume-builder web application in vanilla JS , PHP for creating user resumes by ingesting information from an interactive form. This was integrated with the web portal of Pune StartUp Fest where 3000+ candidates created their resumes directly sent to Start-Ups for applications."
       }
     ],
     "skills": [
@@ -122,7 +122,7 @@
       {
         "title": "Chess Engine",
         "category": "Developed a chess engine in GoLang using MiniMax Algorithm and alpha-beta pruning with a minimal UI.Try to beat it at: https://vasusharma7.github.io/Chess-MM/index.html",
-        "image": "raft.png",
+        "image": "chess.png",
         "url": "https://github.com/vasusharma7/Chess-MM"
       },
       {
@@ -134,7 +134,7 @@
       {
         "title": "RAFT",
         "category": "Created a browser simulation for understanding RAFT -- a consensus algorithm for distributed systems.Live Demo: https://pranav2612000.github.io/raft/",
-        "image": "chess.png",
+        "image": "raft.png",
         "url": "https://github.com/pranav2612000/raft/"
       },
       {
