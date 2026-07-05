@@ -1,184 +1,270 @@
 {
   "main": {
     "name": "Vasu Sharma",
-    "occupation": "Software Engineer",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "title": "Senior Software Engineer",
+    "company": "Google",
+    "location": "Zurich, Switzerland",
+    "tagline": "Wanderer. Wonderer. Coder.",
+    "bio": "I build things at Google — from agent security to prompt injection defenses. By day, I'm an engineer shaping how the world's AI stays safe. By night, I'm either exploring a new trail in the Swiss Alps or deep in a rabbit hole building chess engines, torrent clients, and other systems from scratch. I believe the best engineers are the ones who never stop wandering — through codebases, through ideas, through the world.",
     "image": "profilepic.jpg",
-    "bio": "Hi ! I am a Computer Engineer, currently working at Google on AI Security. I love Computer Science in general and specifically interested in Computer Networks, Operating Systems.I can adapt to changing tech-stacks or new technology in general very quickly.Computer networks really fascinate me.I have worked on some cool freelancing projects and am always looking for project ideas involving new challenges.I am a travel-geek and I only have coffee on days ending with 'y' :p",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "mailsforvasu@gmail.com",
-    "phone": "",
-    "address": {
-      "street": "",
-      "city": "Jammu",
-      "state": "Jammu & Kashmir",
-      "zip": "India"
-    },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "email": "vasusharma656@gmail.com",
+    "website": "https://vasusharma7.github.io",
     "social": [
       {
-        "name": "medium",
-        "url": "http://vasusharma7.medium.com",
-        "className": "fa fa-medium"
+        "name": "GitHub",
+        "url": "https://github.com/vasusharma7",
+        "icon": "github"
       },
       {
-        "name": "mail",
-        "url": "mailto:mailsforvasu@gmail.com",
-        "className": "fa fa-envelope"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com/vasusharma_7",
-        "className": "fa fa-twitter"
-      },
-      {
-        "name": "linkedin",
+        "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/vasusharma7/",
-        "className": "fa fa-linkedin"
+        "icon": "linkedin"
       },
       {
-        "name": "github",
-        "url": "http://github.com/vasusharma7",
-        "className": "fa fa-github"
+        "name": "Medium",
+        "url": "https://vasusharma7.medium.com",
+        "icon": "medium"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:vasusharma656@gmail.com",
+        "icon": "email"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://x.com/vasusharma_7",
+        "icon": "twitter"
       }
     ]
   },
-  "resume": {
-    "skillmessage": "I have worked on numerous projects and am well-versed with web development, native mobile and desktop development.",
-    "education": [
-      {
-        "school": "College Of Engineering, Pune",
-        "degree": "B.Tech. in Computer Science",
-        "graduated": "2018-2022",
-        "description": "Studied Data Structures, Algorithms, Computer Networks,Operating Systems, Databases.."
-      },
-      {
-        "school": "Govt. SRML Higher Secondary School,Jammu",
-        "degree": "Intermediate/+2",
-        "graduated": "April 2018",
-        "description": "Studied Physics, Chemistry, Mathematics and Computer Science.I was headboy of the school."
-      }
+  "journey": [
+    {
+      "company": "Google",
+      "title": "Senior Software Engineer",
+      "period": "May 2026 – Present",
+      "location": "Zurich, Switzerland",
+      "highlights": [
+        "Leading the Agent Observability team, working on data driven agent security efforts and building data pipelines ingesting data from agents across Google",
+        "Research work on integrated and standalone security classifiers in the Agentic world.",
+        "Working on internal Python RPC framework, adding new features like request-interceptor / middleware support - used by teams in Shopping, Search, Gemini etc."
+      ],
+      "tags": [
+        "Python",
+        "Agent Security",
+        "Observability",
+        "SAIF"
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer III — Agent Security",
+      "period": "Jul 2025 – Apr 2026",
+      "location": "Zurich, Switzerland",
+      "highlights": [
+        "Founding member of Agent Observability team — tracking AI agents across Google - from capabilities to their security posture, and risk vectors like 'Lethal Trifecta'",
+        "Added security features to harden Agent frameworks with output normalisation and capability controls",
+        "Researched novel Agent Architectures to promote secure-by-design patterns preventing prompt injection risks"
+      ],
+      "tags": [
+        "Information Security",
+        "Agent Architectures",
+        "Prompt Injection"
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer III — Model Armor",
+      "period": "May 2024 – Jul 2025",
+      "location": "Pune, India",
+      "highlights": [
+        "Founding Engineer of Model Armor – a Google Cloud service screening LLM prompts and responses for safety risks",
+        "Reduced p90 E2E response time by 75% through quantization and infrastructure optimizations, saving $M/year",
+        "Enhanced prompt injection & jailbreak detection with native multi-lingual and long-context support"
+      ],
+      "tags": [
+        "LLM Security",
+        "ML Serving",
+        "GCP",
+        "Java",
+        "C++",
+        "Spanner"
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Software Engineer II — Parameter Manager",
+      "period": "Sep 2023 – Apr 2024",
+      "location": "Pune, India",
+      "highlights": [
+        "Founding Engineer in GCP's Parameter Manager — extension of Secret Manager for YAML/JSON application parameters",
+        "Worked on rendering secrets within parameters, customer demos, and E2E testing with continuous probes"
+      ],
+      "tags": [
+        "Go",
+        "Spanner",
+        "gRPC",
+        "GCP"
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Application Engineer II",
+      "period": "Jul 2022 – Sep 2023",
+      "location": "Bengaluru, India",
+      "highlights": [
+        "Standardized active device telemetry data collection from datacenter hardware — handling billions of events daily",
+        "Founded centralized 'Policy Manager' for Cloud Capacity Policies with versioning, RBAC, and CEL evaluation engine",
+        "Built application tracking carbon emissions data of suppliers for Google's net-zero initiative"
+      ],
+      "tags": [
+        "C++",
+        "Java",
+        "Angular",
+        "PubSub",
+        "Spanner"
+      ]
+    },
+    {
+      "company": "Axis Technical Group",
+      "title": "ML Research Intern",
+      "period": "Dec 2021 – Jun 2022",
+      "location": "",
+      "highlights": [
+        "Researched novel OCR techniques — implemented CRAFT architecture and trained on custom data",
+        "Shifted ML workloads to containerized Kubernetes pipelines, improving availability and reducing costs",
+        "Built full-stack app for continuous human feedback with automated model retraining"
+      ],
+      "tags": [
+        "Python",
+        "Azure",
+        "Kubernetes",
+        "OCR",
+        "Deep Learning"
+      ]
+    },
+    {
+      "company": "Goldman Sachs",
+      "title": "Summer Analyst",
+      "period": "Jun 2021 – Jul 2021",
+      "location": "Bengaluru, India",
+      "highlights": [
+        "Redesigned workflow configuration UI with React and TypeScript — reduced user onboarding time from 3 weeks to days"
+      ],
+      "tags": [
+        "React",
+        "TypeScript"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Chess Engine",
+      "description": "A chess engine in Go using MiniMax with alpha-beta pruning. Try to beat it!",
+      "image": "chess.png",
+      "url": "https://github.com/vasusharma7/Chess-MM",
+      "demo": "https://vasusharma7.github.io/Chess-MM/index.html",
+      "tags": [
+        "Go",
+        "Algorithms",
+        "Game AI"
+      ]
+    },
+    {
+      "title": "VSTorrent",
+      "description": "A full BitTorrent client built in Node.js with an Electron UI. Downloads, seeds, shows real-time stats, and works across NAT.",
+      "image": "torrent.jpg",
+      "url": "https://github.com/vasusharma7/torrent",
+      "tags": [
+        "Node.js",
+        "Electron",
+        "Networking",
+        "P2P"
+      ]
+    },
+    {
+      "title": "RAFT Visualizer",
+      "description": "Interactive browser simulation for understanding the RAFT consensus algorithm for distributed systems.",
+      "image": "raft.png",
+      "url": "https://github.com/pranav2612000/raft/",
+      "demo": "https://pranav2612000.github.io/raft/",
+      "tags": [
+        "Distributed Systems",
+        "Consensus",
+        "Visualization"
+      ]
+    },
+    {
+      "title": "LSM Tree",
+      "description": "Log-Structured Merge Trees implemented from scratch to deeply understand database storage internals.",
+      "image": "lsm.png",
+      "url": "https://github.com/vasusharma7/lsm",
+      "tags": [
+        "C",
+        "Databases",
+        "Storage Engines"
+      ]
+    },
+    {
+      "title": "Netcon",
+      "description": "Serverless P2P app for file sharing, voice calls, and messaging over local WiFi — works without internet. Live on Google Play Store.",
+      "image": "netcon.png",
+      "url": "https://github.com/vasusharma7/intralan-wireless-com",
+      "tags": [
+        "Android",
+        "P2P",
+        "Networking"
+      ]
+    },
+    {
+      "title": "Milaap",
+      "description": "Decentralized video conferencing app designed for edge computing with true peer-to-peer connections and end-to-end encryption.",
+      "image": "milaap.jpg",
+      "url": "https://milaap.video/",
+      "tags": [
+        "WebRTC",
+        "P2P",
+        "Real-time"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "College of Engineering, Pune",
+      "degree": "B.Tech in Computer Science",
+      "period": "2018 – 2022"
+    },
+    {
+      "school": "SRML Higher Secondary School, Jammu",
+      "degree": "Higher Secondary",
+      "period": "2016 – 2018"
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Python",
+      "Go",
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript"
     ],
-    "work": [
-      {
-        "company": "Google",
-        "title": "Software Engineer",
-        "years": "Sept 2023 - Present",
-        "description": "Working on AI Security Solutions targeting OWASP Top 10 risks for LLMs.Previously, worked in GCP's Secret Manager team to develop a new service for Google Cloud Platform (yet to be GA) [Go, Spanner, gRPC, Continuous Probes for E2E testing]"
-      },
-      {
-        "company": "Google",
-        "title": "Application Engineer",
-        "years": "July 2022 - Sept 2023",
-        "description": "Worked on standardizing the active device telemetry data collection from datacenter hardware (adopting redfish industry standard) for data-center data-security team. We handled billions of events daily from across the fleet. Also, designed and developed(founding team member) a centralized \"Policy Manager\" for creating and enforcing Cloud Capacity Policies with policy versioning, RBAC, runtime evaluation engine using Common Expression Language."
-      },
-      {
-        "company": "Axis Technical Group",
-        "title": "ML Research Intern",
-        "years": "Dec 2021 - June 2022",
-        "description": "Researched on novel techniques for optical character Recognition (OCR) for machine printed and handwritten text. Implemented CRAFT research paper, changed the model architecture and trained on relevant data to suit the requirements. Strengthened ML deployments of OCR jobs by shifting workloads from compute instances to containerized ML pipeline on Kubernetes (async) increasing load tolerance and availability and also saving costs. Built a full stack application for continuous human feedback of low confidence predictions and setup automated retraining pipeline for model based on evaluation."
-      },
-      {
-        "company": "Goldman Sachs",
-        "title": "Summer Intern",
-        "years": "June 2021 - July 2021",
-        "description": "Added features to and re-designed the primitive UI for configuring workflows with React and TypeScript to make it consistent across the firm and reduced the user on-boarding time from 3 weeks to few days."
-      },
-      {
-        "company": "NanoStuffs",
-        "title": "Freelance Developer",
-        "years": "June 2021 - July 2021",
-        "description": "Built a real Email Classification engine for Hotstar (client of NanoStuffs), deployed the same AWS. [Python,Machine Learning,AWS]. Worked on web scraping projects, scraping data from Yelp and other online reviews websites into structured format. [Python, Selenium]."
-      },
-      {
-        "company": "Software Development Section,COEP",
-        "title": "Software Developer",
-        "years": "October 2019 - May 2022",
-        "description": " Built a website for Indian Medical Association - https://imamssss.com to manage their Social Security Scheme. Built an online election portal for conducting elections for College Presidents during the times of covid. Self hosted on college servers and did extensive load tests."
-      }
+    "infrastructure": [
+      "Kubernetes",
+      "gRPC",
+      "Spanner",
+      "PubSub",
+      "AWS",
+      "Azure",
+      "GCP"
     ],
-    "skills": [
-      {
-        "name": "Langauges",
-        "more": "Python, C, C++, Javascript, Go, Java"
-      },
-      {
-        "name": "Frameworks and Libraries",
-        "more": "Electron, React Native, Django, NodeJS, ReactJS, ReduxJS, Flask"
-      },
-      {
-        "name": "Web Development",
-        "more": "MERN, LAMP Stack, HTML, CSS, PHP"
-      },
-      {
-        "name": "Tools and tech",
-        "more": "linux, git, selenium, AWS"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Chess Engine",
-        "category": "Developed a chess engine in GoLang using MiniMax Algorithm and alpha-beta pruning with a minimal UI.Try to beat it at: https://vasusharma7.github.io/Chess-MM/index.html",
-        "image": "chess.png",
-        "url": "https://github.com/vasusharma7/Chess-MM"
-      },
-      {
-        "title": "VSTorrent - A Torrent Client",
-        "category": "A torrent client built in Node JS with a nice UI made with electron.js. It can download files,serve as seed server and show you some nice stats while downloading files. The best thing is that it also works across NAT layer.",
-        "image": "torrent.jpg",
-        "url": "https://github.com/vasusharma7/torrent"
-      },
-      {
-        "title": "RAFT",
-        "category": "Created a browser simulation for understanding RAFT -- a consensus algorithm for distributed systems.Live Demo: https://pranav2612000.github.io/raft/",
-        "image": "raft.png",
-        "url": "https://github.com/pranav2612000/raft/"
-      },
-      {
-        "title": "LSM Tree",
-        "category": "Implement Log Structured Merge Trees from Scratch to understand the internals.",
-        "image": "lsm.png",
-        "url": "https://github.com/vasusharma7/lsm"
-      },
-      {
-        "title": "Netcon",
-        "category": "Built Android and Desktop Applications to share files, voice call and text message users connected to the same WiFi network.The app is completely server-less and uses peer-to-peer connections for all its functions and works without Internet.Live on Google Play Store.",
-        "image": "netcon.png",
-        "url": "https://github.com/vasusharma7/intralan-wireless-com"
-      },
-      {
-        "title": "Milaap",
-        "category": "Milaap a decentralised video/audio chat/conferencing application, which is designed to work on the edge, with very less interference of the server(i.e. peer to peer connection). There are many video calling applications around the globe, but they are mostly server based applications providing maximum load on the server, wherein the audio and video quality decreases with increase in the number of participants. Many don't even support end-to-end encryption. So we decided to develop a one-stop solution for not only addressing all these solution, but to give a seamless experience to the user. It is designed to work efficiently on all platform",
-        "image": "milaap.jpg",
-        "url": "https://milaap.video/"
-      },
-      {
-        "title": "Fashion Intelligence System",
-        "category": "Created a tech solution to extract and present winning designs of apparels and footwear in a consumable format to designers, so that the same can be incorporated in the upcoming design of fashion products.Trained various Deep Learning models for extracting useful products from pictures, predicting the trendiness of products etc. Developed some generalized scrapers for twitter and various fashion blog sites to gather data.",
-        "image": "fashion.png",
-        "url": "https://github.com/vasusharma7/flipkart-gridM"
-      },
-      {
-        "title": "IMA - Social Security Scheme",
-        "category": "Social Security Scheme for Indian Medical Association - LIC for Doctors. Built and end-to-end website, User's View and Admin's View for IMA to manage their SSS Scheme. Website Link - https://gitlab.com/sdscoep/ima_all",
-        "image": "ima.jpg",
-        "url": "https://www.imamssss.com"
-      },
-      {
-        "title": "Text Editor",
-        "category": "A text editor made in C with features like creating and editing files, undo/redo, goto line number,word suggestions as you type and you can open/edit large files without any lag",
-        "image": "editor.jpg",
-        "url": "https://github.com/vasusharma7/text-editor"
-      },
-      {
-        "title": "Resume Maker",
-        "category": "An automated Resume Maker written in LAMP stack.The project was deployed live in Pune StartUp Fest 2020 on their Portal where more than 3000 people made resume with this application.",
-        "image": "resume.jpg",
-        "url": "https://github.com/vasusharma7"
-      }
+    "domains": [
+      "AI Security",
+      "LLM Safety",
+      "Distributed Systems",
+      "ML Serving",
+      "Computer Networks",
+      "Operating Systems"
     ]
   }
 }

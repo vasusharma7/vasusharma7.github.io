@@ -1,54 +1,48 @@
 import React, { Component } from "react";
-import ReactGA from "react-ga";
-import $ from "jquery";
+import ReactGA from "react-ga4";
 import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+import Nav from "./Components/Nav";
+import Hero from "./Components/Hero";
 import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Portfolio from "./Components/Portfolio";
+import Journey from "./Components/Journey";
+import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      foo: "bar",
       resumeData: {},
+      loaded: false,
     };
 
     ReactGA.initialize("G-C4VQM39R1F");
-    ReactGA.pageview(window.location.pathname);
-  }
-
-  getResumeData() {
-    $.ajax({
-      url: "/resumeData.json",
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function (xhr, status, err) {
-        console.log(err);
-        alert(err);
-      },
-    });
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
   }
 
   componentDidMount() {
-    this.getResumeData();
+    fetch("/resumeData.json")
+      .then((res) => res.json())
+      .then((data) => {
+        this.setState({ resumeData: data, loaded: true });
+      })
+      .catch((err) => console.error("Failed to load resume data:", err));
   }
 
   render() {
+    const { resumeData, loaded } = this.state;
+    if (!loaded) return null;
+
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
+        <Nav />
+        <Hero data={resumeData.main} />
+        <About data={resumeData.main} />
+        <Journey data={resumeData.journey} />
+        <Projects data={resumeData.projects} />
+        <Skills data={resumeData.skills} />
+        <Footer data={resumeData.main} />
       </div>
     );
   }
