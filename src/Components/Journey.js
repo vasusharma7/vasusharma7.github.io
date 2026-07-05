@@ -32,6 +32,12 @@ class Journey extends Component {
               <div className="timeline__item" key={index}>
                 <div className="timeline__dot" />
                 <div className={`timeline__card reveal reveal-delay-${(index % 4) + 1}`}>
+                  <div className="timeline__card-header-decor">
+                    <span className="decor-dot"></span>
+                    <span className="decor-dot"></span>
+                    <span className="decor-dot"></span>
+                    <span className="decor-index">SYS_LOG_0{index + 1}</span>
+                  </div>
                   <div className="timeline__header">
                     <div>
                       <h3 className="timeline__company">{item.company}</h3>

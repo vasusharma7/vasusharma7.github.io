@@ -37,6 +37,13 @@ class Projects extends Component {
                 key={index}
                 style={{ textDecoration: "none" }}
               >
+                <div className="project-card__window-header">
+                  <span className="window-dot red"></span>
+                  <span className="window-dot yellow"></span>
+                  <span className="window-dot green"></span>
+                  <span className="window-title">{project.title.toLowerCase()}.env</span>
+                </div>
+
                 <div className="project-card__image-container">
                   <img
                     className="project-card__image"
@@ -47,7 +54,9 @@ class Projects extends Component {
                 </div>
 
                 <div className="project-card__content">
-                  <h3 className="project-card__title">{project.title}</h3>
+                  <h3 className="project-card__title">
+                    <span className="prompt">$&gt;</span> {project.title}
+                  </h3>
                   <p className="project-card__description">
                     {project.description}
                   </p>

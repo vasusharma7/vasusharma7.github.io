@@ -86,6 +86,18 @@ class About extends Component {
                     </div>
                   </div>
                 </div>
+
+                <div className="about__detail">
+                  <div className="about__detail-icon">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M12 2L2 22h20L12 2zm0 4.13L18.94 19H5.06L12 6.13z"/>
+                    </svg>
+                  </div>
+                  <div className="about__detail-text">
+                    <div className="about__detail-label">Exploration</div>
+                    <div className="about__detail-value">47.3769° N · 8.5417° E · 408m</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
