@@ -5,7 +5,7 @@
     "company": "Google",
     "location": "Zurich, Switzerland",
     "tagline": "Wanderer. Wonderer. Coder.",
-    "bio": "I build things that protect AI at Google — from agent security signals to prompt injection defenses. By day, I'm a founding engineer shaping how the world's AI stays safe. By night, I'm either exploring a new trail in the Swiss Alps or deep in a rabbit hole building chess engines and torrent clients from scratch. I believe the best engineers are the ones who never stop wandering — through codebases, through ideas, through the world.",
+    "bio": "I build things at Google — from agent security to prompt injection defenses. By day, I'm an engineer shaping how the world's AI stays safe. By night, I'm either exploring a new trail in the Swiss Alps or deep in a rabbit hole building chess engines, torrent clients, and other systems from scratch. I believe the best engineers are the ones who never stop wandering — through codebases, through ideas, through the world.",
     "image": "profilepic.jpg",
     "email": "vasusharma656@gmail.com",
     "website": "https://vasusharma7.github.io",
@@ -29,6 +29,11 @@
         "name": "Email",
         "url": "mailto:vasusharma656@gmail.com",
         "icon": "email"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://x.com/vasusharma_7",
+        "icon": "twitter"
       }
     ]
   },
@@ -39,11 +44,16 @@
       "period": "May 2026 – Present",
       "location": "Zurich, Switzerland",
       "highlights": [
-        "Leading the Agent Observability team, building agent security signals and data pipelines ingesting data from agents across Google",
-        "Added request-interceptor / middleware support to core internal Python RPC framework — widely used by teams in Shopping, Search, Gemini etc.",
-        "Created a unique agent identifier used across Google for agent request attribution, data governance, and observability"
+        "Leading the Agent Observability team, working on data driven agent security efforts and building data pipelines ingesting data from agents across Google",
+        "Research work on integrated and standalone security classifiers in the Agentic world.",
+        "Working on internal Python RPC framework, adding new features like request-interceptor / middleware support - used by teams in Shopping, Search, Gemini etc."
       ],
-      "tags": ["Python", "Agent Security", "Observability", "SAIF"]
+      "tags": [
+        "Python",
+        "Agent Security",
+        "Observability",
+        "SAIF"
+      ]
     },
     {
       "company": "Google",
@@ -51,11 +61,15 @@
       "period": "Jul 2025 – Apr 2026",
       "location": "Zurich, Switzerland",
       "highlights": [
-        "Founding member of Agent Observability team — built Google-wide cross-framework inventory of AI agents tracking capabilities, security posture, and the 'Lethal Trifecta' risk vectors",
-        "Contributed to internal framework hardening with secure-by-design patterns and capability controls",
+        "Founding member of Agent Observability team — tracking AI agents across Google - from capabilities to their security posture, and risk vectors like 'Lethal Trifecta'",
+        "Added security features to harden Agent frameworks with output normalisation and capability controls",
         "Researched novel Agent Architectures to promote secure-by-design patterns preventing prompt injection risks"
       ],
-      "tags": ["Information Security", "Agent Architectures", "Prompt Injection"]
+      "tags": [
+        "Information Security",
+        "Agent Architectures",
+        "Prompt Injection"
+      ]
     },
     {
       "company": "Google",
@@ -67,7 +81,14 @@
         "Reduced p90 E2E response time by 75% through quantization and infrastructure optimizations, saving $M/year",
         "Enhanced prompt injection & jailbreak detection with native multi-lingual and long-context support"
       ],
-      "tags": ["LLM Security", "ML Serving", "GCP", "Go", "Spanner"]
+      "tags": [
+        "LLM Security",
+        "ML Serving",
+        "GCP",
+        "Java",
+        "C++",
+        "Spanner"
+      ]
     },
     {
       "company": "Google",
@@ -78,7 +99,12 @@
         "Founding Engineer in GCP's Parameter Manager — extension of Secret Manager for YAML/JSON application parameters",
         "Worked on rendering secrets within parameters, customer demos, and E2E testing with continuous probes"
       ],
-      "tags": ["Go", "Spanner", "gRPC", "GCP"]
+      "tags": [
+        "Go",
+        "Spanner",
+        "gRPC",
+        "GCP"
+      ]
     },
     {
       "company": "Google",
@@ -90,7 +116,13 @@
         "Founded centralized 'Policy Manager' for Cloud Capacity Policies with versioning, RBAC, and CEL evaluation engine",
         "Built application tracking carbon emissions data of suppliers for Google's net-zero initiative"
       ],
-      "tags": ["C++", "Java", "Angular", "PubSub", "Spanner"]
+      "tags": [
+        "C++",
+        "Java",
+        "Angular",
+        "PubSub",
+        "Spanner"
+      ]
     },
     {
       "company": "Axis Technical Group",
@@ -102,7 +134,13 @@
         "Shifted ML workloads to containerized Kubernetes pipelines, improving availability and reducing costs",
         "Built full-stack app for continuous human feedback with automated model retraining"
       ],
-      "tags": ["Python", "Azure", "Kubernetes", "OCR", "Deep Learning"]
+      "tags": [
+        "Python",
+        "Azure",
+        "Kubernetes",
+        "OCR",
+        "Deep Learning"
+      ]
     },
     {
       "company": "Goldman Sachs",
@@ -112,7 +150,10 @@
       "highlights": [
         "Redesigned workflow configuration UI with React and TypeScript — reduced user onboarding time from 3 weeks to days"
       ],
-      "tags": ["React", "TypeScript"]
+      "tags": [
+        "React",
+        "TypeScript"
+      ]
     }
   ],
   "projects": [
@@ -122,14 +163,23 @@
       "image": "chess.png",
       "url": "https://github.com/vasusharma7/Chess-MM",
       "demo": "https://vasusharma7.github.io/Chess-MM/index.html",
-      "tags": ["Go", "Algorithms", "Game AI"]
+      "tags": [
+        "Go",
+        "Algorithms",
+        "Game AI"
+      ]
     },
     {
       "title": "VSTorrent",
       "description": "A full BitTorrent client built in Node.js with an Electron UI. Downloads, seeds, shows real-time stats, and works across NAT.",
       "image": "torrent.jpg",
       "url": "https://github.com/vasusharma7/torrent",
-      "tags": ["Node.js", "Electron", "Networking", "P2P"]
+      "tags": [
+        "Node.js",
+        "Electron",
+        "Networking",
+        "P2P"
+      ]
     },
     {
       "title": "RAFT Visualizer",
@@ -137,28 +187,44 @@
       "image": "raft.png",
       "url": "https://github.com/pranav2612000/raft/",
       "demo": "https://pranav2612000.github.io/raft/",
-      "tags": ["Distributed Systems", "Consensus", "Visualization"]
+      "tags": [
+        "Distributed Systems",
+        "Consensus",
+        "Visualization"
+      ]
     },
     {
       "title": "LSM Tree",
       "description": "Log-Structured Merge Trees implemented from scratch to deeply understand database storage internals.",
       "image": "lsm.png",
       "url": "https://github.com/vasusharma7/lsm",
-      "tags": ["C", "Databases", "Storage Engines"]
+      "tags": [
+        "C",
+        "Databases",
+        "Storage Engines"
+      ]
     },
     {
       "title": "Netcon",
       "description": "Serverless P2P app for file sharing, voice calls, and messaging over local WiFi — works without internet. Live on Google Play Store.",
       "image": "netcon.png",
       "url": "https://github.com/vasusharma7/intralan-wireless-com",
-      "tags": ["Android", "P2P", "Networking"]
+      "tags": [
+        "Android",
+        "P2P",
+        "Networking"
+      ]
     },
     {
       "title": "Milaap",
       "description": "Decentralized video conferencing app designed for edge computing with true peer-to-peer connections and end-to-end encryption.",
       "image": "milaap.jpg",
       "url": "https://milaap.video/",
-      "tags": ["WebRTC", "P2P", "Real-time"]
+      "tags": [
+        "WebRTC",
+        "P2P",
+        "Real-time"
+      ]
     }
   ],
   "education": [
@@ -174,9 +240,31 @@
     }
   ],
   "skills": {
-    "languages": ["Python", "Go", "C", "C++", "Java", "JavaScript", "TypeScript"],
-    "infrastructure": ["Kubernetes", "gRPC", "Spanner", "PubSub", "AWS", "Azure", "GCP"],
-    "domains": ["AI Security", "Agent Observability", "LLM Safety", "Distributed Systems", "ML Serving", "Networking"],
-    "frameworks": ["React", "Angular", "Node.js", "Django", "Flask", "Electron"]
+    "languages": [
+      "Python",
+      "Go",
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "infrastructure": [
+      "Kubernetes",
+      "gRPC",
+      "Spanner",
+      "PubSub",
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "domains": [
+      "AI Security",
+      "LLM Safety",
+      "Distributed Systems",
+      "ML Serving",
+      "Computer Networks",
+      "Operating Systems"
+    ]
   }
 }
