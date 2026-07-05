@@ -5,9 +5,9 @@
     "company": "Google",
     "location": "Zurich, Switzerland",
     "tagline": "Wanderer. Wonderer. Coder.",
-    "bio": "I build things at Google — from agent security to prompt injection defenses. By day, I'm an engineer shaping how the world's AI stays safe. By night, I'm either exploring a new trail in the Swiss Alps or deep in a rabbit hole building chess engines, torrent clients, and other systems from scratch. I believe the best engineers are the ones who never stop wandering — through codebases, through ideas, through the world.",
+    "bio": "By day, I am building things at Google — from agent security to prompt injection defenses. By night, I'm either exploring a new trail in the Swiss Alps or deep in a rabbit hole tinkering with tech. On weekends, I like to cook, travel, cycle, swim, code and everything except rest. I believe the best engineers are the ones who never stop wandering — through codebases, through ideas, through the world.",
     "image": "profilepic.jpg",
-    "email": "vasusharma656@gmail.com",
+    "email": "mailsforvasu@gmail.com",
     "website": "https://vasusharma7.github.io",
     "social": [
       {
@@ -27,7 +27,7 @@
       },
       {
         "name": "Email",
-        "url": "mailto:vasusharma656@gmail.com",
+        "url": "mailto:mailsforvasu@gmail.com",
         "icon": "email"
       },
       {
@@ -130,7 +130,7 @@
       "period": "Dec 2021 – Jun 2022",
       "location": "",
       "highlights": [
-        "Researched novel OCR techniques — implemented CRAFT architecture and trained on custom data",
+        "Researched novel Optical Character Recognition techniques — implemented novel architectures and trained on custom training data prepared after data engineering.",
         "Shifted ML workloads to containerized Kubernetes pipelines, improving availability and reducing costs",
         "Built full-stack app for continuous human feedback with automated model retraining"
       ],
@@ -166,7 +166,7 @@
       "tags": [
         "Go",
         "Algorithms",
-        "Game AI"
+        "Game Theory"
       ]
     },
     {
@@ -178,7 +178,7 @@
         "Node.js",
         "Electron",
         "Networking",
-        "P2P"
+        "P2P Communication"
       ]
     },
     {
@@ -189,8 +189,7 @@
       "demo": "https://pranav2612000.github.io/raft/",
       "tags": [
         "Distributed Systems",
-        "Consensus",
-        "Visualization"
+        "Databases"
       ]
     },
     {
@@ -199,7 +198,7 @@
       "image": "lsm.png",
       "url": "https://github.com/vasusharma7/lsm",
       "tags": [
-        "C",
+        "Go",
         "Databases",
         "Storage Engines"
       ]
@@ -212,7 +211,8 @@
       "tags": [
         "Android",
         "P2P",
-        "Networking"
+        "Typescript",
+        "Computer Networking"
       ]
     },
     {
